@@ -1,0 +1,20 @@
+exp:
+#  save_dir:
+  bs: 4
+  device: 1
+
+model:
+  net:
+    type: HCFnet
+    gt_ds: False
+
+
+dataset:
+  test:
+    type: Dataset_test
+    data_root: 
+    img_sz: 512
+    get_name: True
+
+resume:
+  net_path: 
